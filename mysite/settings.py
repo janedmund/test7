@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '4xo-2h(ptk46i#@3qd*m8tu_3vg(3+!)-n++b4v8l6c2)mmp-c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'muzyka.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
